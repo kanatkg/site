@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: url("../images/first-bg.jpg") center top no-repeat/cover; /*cover адаптивный рисунок */
+    height: 600px;
+    padding-bottom: 100px;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div {
+    box-sizing: border-box; /*Сохраняет размер дива */
+}
+nav {
+    float: right;
+    margin-top: 45px;
+}
+.container {
+    width: 930px;
+    border: 0px solid red;
+    margin: 0 auto
+}
+.logo {
+    padding-top: 41px;
+    color: yellow;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+}
+.menu {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titles-first {
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+}
+h1 {
+    font-size: 75px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+.button {
+    background: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.title {
+    padding: 115px;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title p {
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+}
+.title a:visited {
+    color: #777777;
+}
+.title a:hover {
+    color: inherit;
+}
+.title a:link {
+    color: inherit;
+}
+.title a:active {
+    color: inherit;
+}
